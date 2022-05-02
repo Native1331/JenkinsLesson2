@@ -11,7 +11,7 @@ import static com.codeborne.selenide.Selenide.*;
 import static io.qameta.allure.Allure.step;
 
 @Tag("demoqa")
-    public class RegistrationFormTests extends demoqa.TestBase {
+    public class RegistrationFormTests extends TestBase {
 
         @Test
         @DisplayName("Successful fill registration test")
