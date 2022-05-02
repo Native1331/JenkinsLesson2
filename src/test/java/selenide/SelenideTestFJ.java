@@ -1,4 +1,4 @@
-package demoqa;
+package selenide;
 
 import com.codeborne.selenide.Condition;
 import org.junit.jupiter.api.DisplayName;

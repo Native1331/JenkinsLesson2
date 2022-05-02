@@ -31,7 +31,7 @@ import static org.openqa.selenium.logging.LogType.BROWSER;
         public static void browserConsoleLogs() {
             attachAsText(
                     "Browser console logs",
-                    String.join("\n", Selenide.getWebDriverLogs(BROWSER))
+                    String.join("n", Selenide.getWebDriverLogs(BROWSER))
             );
         }
 
