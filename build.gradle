@@ -50,8 +50,13 @@ tasks.withType(Test) {
         }
     }
 }
-task demoqa(type:Test) {
+task demoqa_tests(type:Test) {
       useJUnitPlatform{
-     includeTags "selenide"
-}
-}
+     includeTags "demoqa"
+     }
+ }
+     task test5(type:Test) {
+           useJUnitPlatform{
+          includeTags "test5"
+          }
+     }
