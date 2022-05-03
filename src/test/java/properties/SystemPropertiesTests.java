@@ -20,12 +20,7 @@ public class SystemPropertiesTests {
         String browser = System.getProperty("browser","opera");
         System.out.println(browser);//opera
     }
-    @Test
-    void someTest4(){
-        System.setProperty("browser","safari");
-        String browser = System.getProperty("browser","opera");
-        System.out.println(browser); //safari
-    }
+
     @Test
     @Tag("test5")
     void someTest5(){
