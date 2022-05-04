@@ -10,14 +10,13 @@ public class OwnerTests {
     @Test
     @Tag("owner")
     void loginTest() {
-        String login = "";
-        String password = "";
+        String login = config.login();
+        String password = config.password();
 
-        System.out.println("Login:" + login);
-        System.out.println("Password"+ password);
+        System.out.println("Login: " + login);
+        System.out.println("Password: " + password);
 
-        String message = "I logged in as" + login +
-                "with password"+password;
+        String message = "I logged in as " + login + " with password " + password;
         System.out.println(message);
     }
 }
