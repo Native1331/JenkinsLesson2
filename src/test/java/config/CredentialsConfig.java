@@ -7,4 +7,6 @@ import org.aeonbits.owner.Config;
 public interface CredentialsConfig extends org.aeonbits.owner.Config {
     String login();
     String password();
+    String browserSize ();
+    String baseUrl ();
 }

@@ -1,5 +1,6 @@
 package properties;
 
+import com.codeborne.selenide.Configuration;
 import config.CredentialsConfig;
 import org.aeonbits.owner.ConfigFactory;
 import org.junit.jupiter.api.Tag;
@@ -12,11 +13,10 @@ public class OwnerTests {
     void loginTest() {
         String login = config.login();
         String password = config.password();
+        String browserSize = config.browserSize();
+        String baseUrl = config.baseUrl();
 
-        System.out.println("Login: " + login);
-        System.out.println("Password: " + password);
 
-        String message = "I logged in as " + login + " with password " + password;
-        System.out.println(message);
+
     }
 }
